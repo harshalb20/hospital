@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>    
+    <div class="description">
+        <div class="image-container">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <h1>Welcome to Noble Hospital</h1>
+        <p>Please fill the details for the Patient Registration.</p>
+    </div>
+    <div class="container"> 
+        <div class="step" id="step1">
+            <h2>Patient Registration Form</h2>
+            <h3>Patient Information</h3>
+            <form id="formStep1">
+               <label for="fullname">Full Name:</label>
+               <input type="text" id="fullname" name="fullname"><br><br>
+               <label for="dob">Date of Birth:</label><br>
+               <input type="date" id="dob" name="dob"><br><br>
+               <label for="gender">Gender:</label>
+               <select name="gender" id="gender">
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+                   <option value="other">Other</option>
+               </select><br><br>
+               <label for="phone">Phone Number:</label>
+               <input type="tel" id="phone" name="phone"placeholder="###-###-####"><br><br>
+               <label for="address">Address:</label>
+               <textarea id="address" name="address" rows="4"></textarea>
+               <button type="button" onclick="nextStep(2)">Next</button>       
+            </form> 
+        </div>   
+
+        <div class="step" id="step2" style="display: none;">
+            <h2>Medical Information</h2>
+            <form id="formStep2">
+                <label for="insuranceID">Insurance ID:</label>
+                <input type="number" id="insuranceID" name="insuranceID"><br><br>  
+                <label for="medicalHistory">Medical History:</label>
+                <textarea id="medicalHistory" name="medicalHistory" rows="4"></textarea><br><br>      
+                <label for="allergies">Allergies:</label>
+                <input type="text" id="allergies" name="allergies"><br><br>       
+                <label for="primaryCarePhysician">Primary Care Physician:</label>
+                <input type="text" id="primaryCarePhysician" name="primaryCarePhysician"><br><br>       
+                <button type="button" onclick="nextStep(3)">Next</button>
+            </form>
+        </div>                        
+
+        <div class="step" id="step3" style="display: none;">
+            <h2>Account Setup</h2>
+            <form id="formStep3">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword"><br>
+                <button type="button" id = "submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="patientDetails"></div>
+
+    </div>
+    
+    <script src="project1.js"></script>
+   
+  
+
+    <script type="module">
+    
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getDatabase,  set, ref, update } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+            apiKey: "AIzaSyCEKJm0aE73f5OWtdVWRRTj9Hz1x8yfGw8",
+          authDomain: "noble-hospital-database.firebaseapp.com",
+          databaseURL: "https://noble-hospital-database-default-rtdb.firebaseio.com",
+          projectId: "noble-hospital-database",
+          storageBucket: "noble-hospital-database.appspot.com",
+          messagingSenderId: "579782922238",
+          appId: "1:579782922238:web:cdd8074190b994eafd7aaf"
+        };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+
+    submit.addEventListener('click', (e) => {
+        var fullName = document.getElementById('fullname').value;
+        var dob = document.getElementById('dob').value;
+        var gender = document.getElementById('gender').value;
+        var phone = document.getElementById('phone').value;
+        var address = document.getElementById('address').value;
+        var insuranceID = document.getElementById('insuranceID').value;
+        var medicalHistory = document.getElementById('medicalHistory').value;
+        var allergies = document.getElementById('allergies').value;
+        var primaryCarePhysician = document.getElementById('primaryCarePhysician').value;
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        var confirmPassword = document.getElementById('confirmPassword').value;
+
+        createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            //signed in
+            const user = userCredential.user;
+
+            set(ref(database, 'users/' + user.uid),{
+                fullName: fullname,
+                dob: dob,
+                gender: gender,
+                phone: phone,
+                address: address,
+                insuranceID: insuranceID,
+                medicalHistory: medicalHistory,
+                allergies: allergies,
+                primaryCarePhysician: primaryCarePhysician,
+                email: email,
+                password: password,
+                confirmPassword: confirmPassword
+            })
+
+            alert('User Created');
+
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+
+            alert(errorMessage);
+        });
+    });
+
+
+</script>
+
+</body>
+</html>
